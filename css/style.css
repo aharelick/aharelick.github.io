@@ -5,10 +5,16 @@
 	display:block;
     margin:auto;
 }
-.name {
+.jumbotron h1, p, .icons {
 	text-align: center;
 }
-.icons {
-	text-align: center;
+.jumbotron h1 {
+	font-family: 'Shadows Into Light', cursive;
+}
+.jumbotron p {
+	font-family: 'Open Sans', sans-serif;
 }
 
+h3 {
+	font-family: 'Open Sans', sans-serif;
+}
