@@ -10,6 +10,10 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Alex's Style Sheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- JQuery UI -->
+    <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -19,15 +23,40 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Alex Harelick</h1>
-    <a href="https://github.com/aharelick"><i class="fa fa-github-square fa-3x"></i></a>
-    <a href="https://www.linkedin.com/in/aharelick/"><i class="fa fa-facebook-square fa-3x"></i></a>
-    <a href="https://twitter.com/theliebre"><i class="fa fa-twitter-square fa-3x"></i></a>
-    <a href="https://www.facebook.com/aharelick"><i class="fa fa-linkedin-square fa-3x"></i></a>
-    <a href="https://vimeo.com/aharelick"><i class="fa fa-vimeo-square fa-3x"></i></a>
-    <a href="https://plus.google.com/u/0/106872794287173945355/"><i class="fa fa-google-plus-square fa-3x"></i></a>
-
+      <div class="jumbotron">
+        <h1>Alex Harelick</h1>
+        <p>Unless you are the victim of a horrific typo, you've arrived here to learn a little something about <a data-toggle="modal" data-target="#babyModal" id="babytrigger">Alex Harelick</a>, feel free to look around.</p>
+        <p>
+          <a href="https://github.com/aharelick"><i class="fa fa-github-square fa-3x"></i></a>
+          <a href="https://www.linkedin.com/in/aharelick/"><i class="fa fa-linkedin-square fa-3x"></i></a>
+          <a href="https://twitter.com/theliebre"><i class="fa fa-twitter-square fa-3x"></i></a>
+          <a href="https://www.facebook.com/aharelick"><i class="fa fa-facebook-square fa-3x"></i></a>
+          <a href="https://vimeo.com/aharelick"><i class="fa fa-vimeo-square fa-3x"></i></a>
+          <a href="https://plus.google.com/u/0/106872794287173945355/"><i class="fa fa-google-plus-square fa-3x"></i></a>
+        </p>
+      </div>
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <div>
+          <h3>So Who's Alex?</h3>
+        </div></br>
+        <div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="babyModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img src="img/baby_pic.jpg" id="babypic" alt="There should be a baby picture here for your amusement.">
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
+
   </body>
 </html>
