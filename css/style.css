@@ -1,3 +1,9 @@
+a {
+	color:#CC0000;
+	cursor: pointer;
+	}
+a:visited {color:#CC0000;}  /* visited link */
+a:hover {color:#780000;}  /* mouse over link */
 #babytrigger {
 	text-decoration: none;	
 }
@@ -6,18 +12,30 @@
     margin:auto;
 }
 .header {
-	background-color: #eee;
 }
 .header h1, p, .icons {
 	text-align: center;
 }
 .header h1 {
 	font-family: 'Shadows Into Light', cursive;
+	font-size: 500%;
 }
 .header p, h4, li {
 	font-family: 'Open Sans', sans-serif;
 }
+.basics {
+	padding-top: 30px;
+}
 .header li {
+}
+hr {
+	border: 0;
+	height: 1px;   
+	background-image:      -webkit-gradient(linear, 0 0, 100% 0, from(rgba(192,192,192,0)), color-stop(0.5, rgba(192,192,192,0.75)), to(rgba(192,192,192,0)));
+	background-image:      -webkit-linear-gradient(left, rgba(192,192,192,0), rgba(192,192,192,0.75), rgba(192,192,192,0));
+	background-image:      -moz-linear-gradient(left, rgba(192,192,192,0), rgba(192,192,192,0.75), rgba(192,192,192,0));
+	background-image:      -o-linear-gradient(left, rgba(192,192,192,0), rgba(192,192,192,0.75), rgba(192,192,192,0));
+	background-image:      linear-gradient(left, rgba(192,192,192,0), rgba(192,192,192,0.75), rgba(192,192,192,0)); 
 }
 
 
