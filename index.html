@@ -44,15 +44,33 @@
         <ul>
           <li>Rising junior at the University of Pennsylvania (est. time of graduation: May 2016)</li>
           <li>Candidate for BSE in Networked and Social Systems Engineering</li>
-          <li>Highly skilled in Java and Juggling</li>
-          <li>-------------------------------------</li>
-          <li>-------------------------------------</li>
+          <li>Proficient in Java and Juggling</li>
+          <li>Experience with front and back end web technologies (see <a id="basicslinktoproj"> Projects</a>)</li>
+          <li><a href="pdf/resume.pdf">Résumé</a></li>
         </ul>
       </div>
     </div>
     <div class="row">
       <div class="col-md-10 col-md-offset-1">
         <hr>
+      </div>
+    </div>
+
+    <!-- About -->
+    <div id="about">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+          <h4>About</h4>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects -->
+    <div id="projects">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+          <h4>Projects</h4>
+        </div>
       </div>
     </div>
 
@@ -67,11 +85,16 @@
       </div>
     </div>
 
-    <!-- js Scripts -->
+    <!-- JS Scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-
+    <script>
+      $("#basicslinktoproj").click(function() {
+        $('html, body').animate({
+          scrollTop: $("#projects").offset().top}, 800);
+      });
+    </script>
 
   </body>
 </html>
