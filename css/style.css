@@ -22,7 +22,7 @@ a:hover {
 	font-family: 'Open Sans', sans-serif;
 }
 .header h1 {
-	font-family: 'Shadows Into Light', cursive;
+	font-family: 'Shadows Into Light', 'Open Sans';
 	font-size: 500%;
 }
 .basics {
