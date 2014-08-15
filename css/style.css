@@ -20,7 +20,7 @@ a:hover {
 }
 *{font-family: 'Open Sans', sans-serif;}
 .header h1 {
-	font-family: 'Shadows Into Light', 'Open Sans';
+	font-family: 'Bree Serif', 'Open Sans';
 	font-size: 500%;
 }
 .basics {
@@ -32,6 +32,16 @@ a:hover {
 #large-icons {
 	font-size: 300%;
 	text-align: center;
+}
+.modal-body {
+	padding: 0px;
+}
+.modal-content {
+	width: 500px;
+}
+@media (max-width:320px) { 
+	#babypic{width: 300px;} 
+	.modal-content {width: 300px;}
 }
 hr {
 	border: 0;
