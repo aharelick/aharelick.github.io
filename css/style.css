@@ -15,12 +15,10 @@ a:hover {
 	display:block;
     margin:auto;
 }
-.header h1, p, .icons {
+.header-left {
 	text-align: center;
 }
-.header p, h4, h5, h6, li {
-	font-family: 'Open Sans', sans-serif;
-}
+*{font-family: 'Open Sans', sans-serif;}
 .header h1 {
 	font-family: 'Shadows Into Light', 'Open Sans';
 	font-size: 500%;
@@ -30,6 +28,10 @@ a:hover {
 }
 #faq h5 {
 	padding-left: 3em;
+}
+#large-icons {
+	font-size: 300%;
+	text-align: center;
 }
 hr {
 	border: 0;
