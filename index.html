@@ -63,16 +63,19 @@
     <!-- Projects -->
     <div id="projects">
       <div class="row">
-        <div class="col-md-10 col-md-offset-1">
-          <h3>Stuff I have Done</h3>
+        <div class="col-md-11 col-md-offset-1">
+          <h3>Stuff I Have Done</h3>
           <div class="thing col-md-3 col-md-offset-1">
             <img src="img/wiki.png" width="100" height="100" alt="">
+            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium libero modi natus voluptas assumenda esse, neque! Corporis nesciunt corrupti ipsum, maxime, labore in atque, non magni voluptas maiores pariatur. Minima.</span>
           </div>
-          <div class="thing col-md-3 col-md-offset-1">
+          <div class="thing col-md-3">
             <img src="img/wiki.png" width="100" height="100" alt="">
+            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium libero modi natus voluptas assumenda esse, neque! Corporis nesciunt corrupti ipsum, maxime, labore in atque, non magni voluptas maiores pariatur. Minima.</span>
           </div>
-          <div class="thing col-md-3 col-md-offset-1">
+          <div class="thing col-md-3">
             <img src="img/wiki.png" width="100" height="100" alt="">
+            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium libero modi natus voluptas assumenda esse, neque! Corporis nesciunt corrupti ipsum, maxime, labore in atque, non magni voluptas maiores pariatur. Minima.</span>
           </div>
         </div>
       </div>
@@ -83,7 +86,8 @@
       <div class="row">
         <div class="col-md-9 col-md-offset-1">
           <h3>FAQ</h3>
-          <span class="question"><i>Networked &amp; Social Systems Engineering you say? Alex, you can't just make up majors.</i></span>
+          <span class="question"><i>Networked &amp; Social Systems Engineering you say? Alex, you can't just <span id="psych-trigger">make up</span> majors.</i></span>
+          <img id="psych-gif" src="img/psych.gif" alt="">
           <span class="answer">- NETS is in fact a real major. The curriculum starts by giving each student a strong computer science base in the three introductory classes, Mathematical Foundations of Computer Science, and Algorithms. We are then required to give our education some breadth by taking various courses in Economics and Systems Engineering. There are also specific NETS classes which focus on topics such as  network analysis, scalable data processing, and game theory.</span></br>
           <span class="answer">- NETS students are allowed to choose what direction they take their degree in after fulfilling the requirements. I have decided to pursue Computer Science and will therefore be taking high level classes in Machine Learning and Databases, among others.</span></br>
           <span class="question"><i>Your highest number of endorsements on <a href="https://www.linkedin.com/in/aharelick/">LinkedIn</a> is for juggling, do you even school?</i></span>
@@ -123,10 +127,17 @@
     <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script>
+    $(document).ready(function() {
       $("#basicslinktoproj").click(function() {
         $('html, body').animate({
           scrollTop: $("#projects").offset().top}, 800);
       });
+      $("#psych-gif").hide();
+      $("#psych-trigger").click(function() {
+        $("#psych-gif").toggle();
+      });
+    });
+
     </script>
 
     <!-- Google Analytics -->

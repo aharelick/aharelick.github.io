@@ -51,14 +51,21 @@ h3 {
 .modal-content {
 	width: 500px;
 }
-@media (max-width:320px) { 
-	#babypic{width: 300px;} 
-	.modal-content {width: 300px;}
-}
 .thing {
 	border: 2px lightgray solid;
 	border-radius: 10px;
 	background-image: url("../img/background.png");
+	margin-left: 50px;
+}
+.thing img {
+	display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+@media (max-width:320px) { 
+	#babypic{width: 300px;} 
+	.modal-content {width: 300px;}
+	.thing {margin-left: 0px;margin-bottom:20px;}
 }
 hr {
 	border: 0;
