@@ -15,6 +15,9 @@ a:hover {
 	display:block;
     margin:auto;
 }
+#babytrigger {
+	color: #333;
+}
 .header-left {
 	text-align: center;
 }
@@ -29,8 +32,14 @@ h3 {
 .basics {
 	padding-top: 30px;
 }
-#faq h5 {
-	padding-left: 3em;
+#faq .question, .answer {
+	display: block;
+}
+#faq .question {
+	padding-bottom: 10px;
+}
+#faq .answer {
+	padding-left: 1.5em;
 }
 #large-icons {
 	font-size: 300%;
@@ -45,6 +54,11 @@ h3 {
 @media (max-width:320px) { 
 	#babypic{width: 300px;} 
 	.modal-content {width: 300px;}
+}
+.thing {
+	border: 2px lightgray solid;
+	border-radius: 10px;
+	background-image: url("../img/download.png");
 }
 hr {
 	border: 0;
