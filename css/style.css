@@ -1,11 +1,3 @@
-@font-face {
-    font-family: 'Bree Serif';
-    src: url('../fonts/BreeSerif-Regular.ttf')
-}
-@font-face {
-    font-family: 'Open Sans';
-    src: url('../fonts/OpenSans-Light.ttf')
-}
 a:hover, a:visited, a:link, a:active {
     text-decoration: none;
     cursor: pointer;
@@ -19,69 +11,39 @@ a:visited {
 a:hover {
 	color:#780000;
 }
-#babypic {
-	display:block;
-    margin:auto;
-}
-#babytrigger {
-	color: #333;
-}
-.header-left {
-	text-align: center;
-}
+
 *{font-family: 'Open Sans', sans-serif;}
+
 .header h1 {
 	font-family: 'Bree Serif', 'Open Sans';
 	font-size: 500%;
 }
+
 h3 {
 	font-family: 'Bree Serif', 'Open Sans';
 }
-.basics {
-	padding-top: 30px;
-}
-#faq .question, .answer {
-	display: block;
-}
+
 #faq .question {
+	display: block;
 	padding-bottom: 10px;
 }
-#faq .answer {
-	padding-left: 1.5em;
-}
+
 #large-icons {
 	font-size: 300%;
 	text-align: center;
 }
-.modal-body {
-	padding: 0px;
-}
-.modal-content {
-	width: 500px;
-}
+
 .thing {
 	border: 2px lightgray solid;
 	border-radius: 10px;
 	background-image: url("../img/background.png");
-	margin-left: 50px;
+	margin-bottom: 30px;
 }
 .thing img {
 	display: block;
     margin: auto;
     margin-top: 10px;
 }
-@media (max-width:320px) { 
-	#babypic{width: 300px;} 
-	.modal-content {width: 300px;}
-	.thing {margin-left: 0px;margin-bottom:20px;}
-	#psych-gif {width:320px;}
-}
-hr {
-	border: 0;
-	height: 1px;   
-	background-image:      -webkit-gradient(linear, 0 0, 100% 0, from(rgba(192,192,192,0)), color-stop(0.5, rgba(192,192,192,0.75)), to(rgba(192,192,192,0)));
-	background-image:      -webkit-linear-gradient(left, rgba(192,192,192,0), rgba(192,192,192,0.75), rgba(192,192,192,0));
-	background-image:      -moz-linear-gradient(left, rgba(192,192,192,0), rgba(192,192,192,0.75), rgba(192,192,192,0));
-	background-image:      -o-linear-gradient(left, rgba(192,192,192,0), rgba(192,192,192,0.75), rgba(192,192,192,0));
-	background-image:      linear-gradient(left, rgba(192,192,192,0), rgba(192,192,192,0.75), rgba(192,192,192,0)); 
+.title {
+	text-align: center;
 }

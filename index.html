@@ -9,18 +9,19 @@
     <!-- Favicon images -->
     <link rel="shortcut icon" href="favicon/favicon.ico">
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Skeleton -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
     <!-- Font Awesome -->
-    <!-- link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" -->
-    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- Alex's Style Sheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link  rel="stylesheet" href="css/style.css">
     <!-- JQuery UI -->
     <!-- link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" -->
     <link rel="stylesheet" href="css/jquery-ui.min.css">
-    <!-- link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css' -->
-    <!-- link href="http://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet" type="text/css" -->
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet" type="text/css">
   
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -30,24 +31,20 @@
     <![endif]-->
   </head>
   <body>
-     <!-- Header -->
-    <div class="row header">
-      <div class="col-md-10 col-md-offset-1 header">
-        <h1>Alex Harelick</h1>
-        <!--
-        <p>Unless you are the victim of a horrific typo, you've arrived here to learn a little something about <a data-toggle="modal" data-target="#babyModal" id="babytrigger">Alex Harelick</a>, feel free to look around.</p>
-        -->
-        <p>Welcome to <a data-toggle="modal" data-target="#babyModal" id="babytrigger">Alex Harelick</a>'s site, feel free to peruse.</p>
-        </br>
+    <!-- Header -->
+    <div class="header">
+      <div class="container">
+        <div class="row">
+          <h1>Alex Harelick</h1>
+          <p>Unless you are the victim of a horrific typo, you've arrived here to learn a little something about Alex Harelick, feel free to look around.</p>
+        </div>
       </div>
     </div>
 
-    <div class="row"><div class="col-md-10 col-md-offset-1"><hr></div></div>
-
     <!-- About -->
     <div id="about">
-      <div class="row">
-        <div class="col-md-9 col-md-offset-1">
+      <div class="container">
+        <div class="row">
             <h3>The Basics</h3>
             <ul>
               <li>Junior at the University of Pennsylvania (est. time of graduation: May 2016)</li>
@@ -55,70 +52,66 @@
               <li>Proficient in Java, Juggling, and more (see <a id="basicslinktoproj"> Projects</a>)</li>
               <li><a href="pdf/resume.pdf">Résumé</a> (pdf)</li>
             </ul>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni harum cumque itaque mollitia quae non sed quos dolorum, minus dolor dolorem sunt, dignissimos enim quaerat dicta ipsum quia nesciunt esse!
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni harum cumque itaque mollitia quae non sed quos dolorum, minus dolor dolorem sunt, dignissimos enim quaerat dicta ipsum quia nesciunt esse!</p>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Projects -->
+      <!-- Projects -->
     <div id="projects">
-      <div class="row">
-        <div class="col-md-11 col-md-offset-1">
+      <div class="container">
+        <div class="row">
           <h3>Stuff I Have Done</h3>
-          <div class="thing col-md-3 col-md-offset-1">
+          <div class="thing five columns">
             <img src="img/wiki.png" width="100" height="100" alt="">
-            <span>Wikipedia Summer Research</span>
+            <div class="title"><span>Wikipedia Summer Research</span></div>
           </div>
-          <div class="thing col-md-3">
+          <div class="thing five columns offset-by-one column">
             <img src="img/wiki.png" width="100" height="100" alt="">
-            <span>FB Project</span>
+            <div class="title"><span>FB Project</span></div>
           </div>
-          <div class="thing col-md-3">
+          <div class="thing five columns">
             <img src="img/wiki.png" width="100" height="100" alt="">
-            <span>Twitter Scroll Chrome Extension</span>
+            <div class="title"><span>Hack4Impact</span></div>
+          </div>
+          <div class="thing five columns offset-by-one column">
+            <img src="img/wiki.png" width="100" height="100" alt="">
+            <div class="title"><span>OT Voting Website</span></div>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- FAQ -->
+      <!-- FAQ -->
     <div id="faq">
-      <div class="row">
-        <div class="col-md-9 col-md-offset-1">
-          <h3>FAQ</h3>
-          <span class="question"><i>Networked &amp; Social Systems Engineering you say? Alex, you can't just <span id="psych-trigger">make up</span> majors.</i></span>
-          <img id="psych-gif" alt="">
-          <span class="answer">- NETS is in fact a real major. The curriculum starts by giving each student a strong computer science base in the three introductory classes, Mathematical Foundations of Computer Science, and Algorithms. We are then required to give our education some breadth by taking various courses in Economics and Systems Engineering. There are also specific NETS classes which focus on topics such as  network analysis, scalable data processing, and game theory.</span></br>
-          <span class="answer">- NETS students are allowed to choose what direction they take their degree in after fulfilling the requirements. I have decided to pursue Computer Science and will therefore be taking high level classes in Machine Learning and Databases, among others.</span></br>
-          <span class="question"><i>Your highest number of endorsements on <a href="https://www.linkedin.com/in/aharelick/">LinkedIn</a> is for juggling, do you even school?</i></span>
-          <span class="answer"></span>
+      <div class="container">
+        <div class="row">
+          <div class="">
+            <h3>FAQ</h3>
+            <span class="question"><b>Networked &amp; Social Systems Engineering you say? Alex, you can't just <span id="psych-trigger">make up</span> majors.</b></span>
+            <img id="psych-gif" class="u-max-full-width" alt="">
+            <ul>
+              <li>NETS is in fact a real major. The curriculum starts by giving each student a strong computer science base in the three introductory classes, Mathematical Foundations of Computer Science, and Algorithms. We are then required to give our education some breadth by taking various courses in Economics and Systems Engineering. There are also specific NETS classes which focus on topics such as  network analysis, scalable data processing, and game theory.</li>
+              <li>NETS students are allowed to choose what direction they take their degree in after fulfilling the requirements. I have decided to pursue Computer Science and will therefore be taking high level classes in Machine Learning and Databases, among others.</li>
+            </ul>
+            <span class="question"><b>Your <a href="https://www.linkedin.com/in/aharelick/">LinkedIn</a> endorsements seem to imply that you juggle, do you juggle?</b></span>
+            <ul><li>I have been raised into a very eccentric family. </li></ul>
+        </div>
       </div>
     </div>
-
-    <div class="row"><div class="col-md-10 col-md-offset-1"><hr></div></div>
 
     <!-- Contact -->
     <div id="contact">
-      <div class="row">
-        <div class="col-md-10 col-md-offset-1">
-          <div id="large-icons" class="icons">
-            <a id="github" class="icon-large" href="https://github.com/aharelick"><i class="fa fa-github-square fa-3x"></i></a>
-            <a id="email" class="icon-large" href=""><i class="fa fa-envelope-square fa-3x"></i></a>
-            <a id="linkedin" class="icon-large" href="https://www.linkedin.com/in/aharelick/"><i class="fa fa-linkedin-square fa-3x"></i></a>
-            <a id="twitter" class="icon-large" href="https://twitter.com/theliebre"><i class="fa fa-twitter-square fa-3x"></i></a>
-            <a id="vimeo" class="icon-large" href="https://vimeo.com/aharelick"><i class="fa fa-vimeo-square fa-3x"></i></a>
-            <a id="google-plus" class="icon-large" href="https://plus.google.com/u/0/106872794287173945355/"><i class="fa fa-google-plus-square fa-3x"></i></a>
-        </div>
-      </div>
-    </div>
-
-    <!-- Baby Pic Modal -->
-    <div class="modal fade" id="babyModal">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-body">
-            <img src="img/baby_pic.jpg" id="babypic" alt="There should be a baby picture here for your amusement.">
+      <div class="container">
+        <div class="row">
+          <div id="large-icons">
+            <a id="github" href="https://github.com/aharelick"><i class="fa fa-github-square fa-3x"></i></a>
+            <a id="email" href=""><i class="fa fa-envelope-square fa-3x"></i></a>
+            <a id="linkedin" href="https://www.linkedin.com/in/aharelick/"><i class="fa fa-linkedin-square fa-3x"></i></a>
+            <a id="twitter" href="https://twitter.com/theliebre"><i class="fa fa-twitter-square fa-3x"></i></a>
+            <a id="vimeo" href="https://vimeo.com/aharelick"><i class="fa fa-vimeo-square fa-3x"></i></a>
+            <a id="google-plus" href="https://plus.google.com/u/0/106872794287173945355/"><i class="fa fa-google-plus-square fa-3x"></i></a>
           </div>
         </div>
       </div>
@@ -129,7 +122,6 @@
     <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script -->
     <script src="js/jquery-1.11.1.min.js"></script>
     <script src="js/jquery-ui-1.11.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
     <script>
     $(document).ready(function() {
       $("#basicslinktoproj").click(function() {
