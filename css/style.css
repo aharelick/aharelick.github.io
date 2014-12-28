@@ -18,9 +18,14 @@ a:hover {
 	font-family: 'Bree Serif', 'Open Sans';
 	font-size: 500%;
 }
-
 h3 {
 	font-family: 'Bree Serif', 'Open Sans';
+}
+body {
+	color: black;
+}
+#projects {
+	color: white;
 }
 
 #faq .question {
@@ -34,11 +39,11 @@ h3 {
 }
 
 .thing {
-	border: 2px lightgray solid;
 	border-radius: 10px;
-	background-image: url("../img/background.png");
+	background-color: rgba(255, 255, 255, 0.04);
 	margin-bottom: 30px;
-}
+	box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.04);
+	}
 .thing img {
 	display: block;
     margin: auto;
@@ -46,4 +51,11 @@ h3 {
 }
 .title {
 	text-align: center;
+}
+
+body {
+	background-image: url("../img/footer_lodyas_inverse_blue.png");
+}
+#projects {
+	background-image: url("../img/footer_lodyas.png");
 }
