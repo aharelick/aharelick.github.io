@@ -12,23 +12,18 @@ a:hover {
 	color:#780000;
 }
 
-*{font-family: 'Open Sans', sans-serif;}
+*{font-family: 'Open Sans', sans-serif; font-weight: 300;}
 
 .header h1 {
 	font-family: 'Bree Serif', 'Open Sans';
 	font-size: 500%;
 }
-h3 {
-	font-family: 'Bree Serif', 'Open Sans';
-}
-body {
-	color: black;
-}
-#projects {
-	color: white;
-}
+h3 {font-family: 'Bree Serif', 'Open Sans';}
+
+#psych-trigger {font-family: 'Open Sans', sans-serif; font-weight: 400;}
 
 #faq .question {
+	font-family: 'Open Sans', sans-serif; font-weight: 400;
 	display: block;
 	padding-bottom: 10px;
 }
@@ -52,9 +47,14 @@ body {
 .title {
 	text-align: center;
 }
-
 body {
-	background-image: url("../img/footer_lodyas_inverse_blue.png");
+	color: black;
+}
+#projects {
+	color: white;
+}
+body {
+	background-image: url("../img/footer_lodyas_inverse.png");
 }
 #projects {
 	background-image: url("../img/footer_lodyas.png");
