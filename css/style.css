@@ -15,10 +15,14 @@ a:hover {
 *{font-family: 'Open Sans', sans-serif; font-weight: 300;}
 
 .header h1 {
-	font-family: 'Bree Serif', 'Open Sans';
+	font-family: 'Roboto Slab', serif;
 	font-size: 500%;
+	margin-bottom: 0;
 }
-h3 {font-family: 'Bree Serif', 'Open Sans';}
+h4 {
+	font-family: 'Roboto Slab', serif;
+	margin-bottom: 1rem;
+}
 
 #psych-trigger {font-family: 'Open Sans', sans-serif; font-weight: 400;}
 
