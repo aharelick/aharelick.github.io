@@ -24,7 +24,11 @@ h4 {
 	margin-bottom: 1rem;
 }
 
-#psych-trigger {font-family: 'Open Sans', sans-serif; font-weight: 400;}
+#psych-trigger {
+	font-family: 'Open Sans', sans-serif;
+ 	font-weight: 400;
+ 	color:#CC0000;
+}
 
 #faq .question {
 	font-family: 'Open Sans', sans-serif; font-weight: 400;

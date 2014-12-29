@@ -137,7 +137,10 @@
         $("#psych-gif").attr('src', psychImage.src);
         $("#psych-gif").show();
         clearTimeout(timeout);
-        timeout = setTimeout(function() {$("#psych-gif").hide();$("#psych-gif").attr('src', "no_pic");}, 2000);
+        timeout = setTimeout(function() {
+          $("#psych-gif").hide();
+          $("#psych-gif").attr('src', "no_pic");
+        }, 2000);
       });
     });
 
