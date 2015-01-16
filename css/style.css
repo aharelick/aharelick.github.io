@@ -27,7 +27,8 @@ h4 {
 #psych-trigger {
 	font-family: 'Open Sans', sans-serif;
  	font-weight: 400;
- 	color:#CC0000;
+ 	color: #CC0000;
+ 	cursor: pointer;
 }
 
 #faq .question {
